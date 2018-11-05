@@ -138,7 +138,6 @@ class ViewController: UIViewController, MKMapViewDelegate, XMLParserDelegate {
         myMapView.setRegion(region, animated: true)
     }
     
-    
     // Pin View의 속성을 바꾸는 delegate method(MKMapViewDelegate)
     func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
         let identifier = "MyPin"
